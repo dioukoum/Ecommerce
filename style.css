@@ -1,0 +1,128 @@
+@import url(./css/OpenSans-VariableFont_wdth\,wght.ttf);
+body{
+    font-family: "Open sans", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* barre de navigation */
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+nav h1{
+    font-size: 20px;
+}
+nav .onglets{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav .onglets p{
+    margin-right: 20px;
+    cursor: pointer;
+}
+nav .onglets input{
+    margin: 8px 20px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background: #f2f2f2;
+}
+/* fin de la barre de navigation */
+
+/* Header */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header h1{
+    font-size: 50px;
+    max-width: 500px;
+    text-align: center;
+}
+header button{
+    padding: 15px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+}
+/* fin de Header */
+
+/* section  principale*/
+.main{
+    margin: 20px;
+    margin-top: 80px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Toutes les cartes  */
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cards .card{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.cards .card img{
+    width: 350px;
+}
+.cards .card .card-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cards .card .card-body p{
+    margin-top: -10px;
+}
+/* Fin de toutes les cartes  */
+
+/* Video de présentation */
+.main .video{
+    margin-top: 80px;
+    width: 90%;
+}
+.main .video iframe{
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 500px;
+}
+/* Video de présentation */
+/* Fin de section principale  */
+
+/* pied de page */
+footer{
+    margin-top: 100px;
+    background: #000;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px;
+}
+footer .reseau-social{
+    display: flex; 
+}
+footer .reseau-social p{
+    margin-right: 15px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    padding: 5px;
+    text-align: center;
+    width: 20px;
+    cursor: pointer;
+}
+/* fin de pied de page */
